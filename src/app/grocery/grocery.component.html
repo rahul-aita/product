@@ -1,0 +1,41 @@
+<div class="container-fluid g-0 p-2">
+    <div class="row g-0">
+        <div class="col-md-2 d-flex justify-content-center align-items-center">
+            <img src="../../assets/images/{{grocery.photo}} " alt="grocery Image" class="grocery">
+        </div>
+
+        <div class="col ps-2">
+            <div class="row g-0">
+                <div class="col-md-10 text-center">
+                    <span class="name">{{grocery.item}}</span>
+                </div>
+
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-success" (click)="editGrocery()">Edit</button>
+                        <button type="button" class="btn btn-outline-danger" (click)="deleteGrocery()">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-0 mt-3">
+                <div class="col-md">
+                    <table class="table table-hover mx-auto">
+                        <thead class="text-center fs-5 fst-italic text-secondary">
+                            <tr>
+                                <td colspan="2">Details</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amount</td>
+                                <td>{{grocery.amount}}</td>
+                            </tr>
+                            <!-- Add more details if needed -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

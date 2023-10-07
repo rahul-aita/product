@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "item": "bread",
+      "amount": "1",
+      "photo": "Photo-02.webp"
+    },
+    {
+      "id": 2,
+      "item": "biscutes",
+      "amount": "3",
+      "photo": "Photo-01.jpeg"
+    },
+    {
+      "id": 5,
+      "item": "snacks",
+      "amount": "3",
+      "photo": "Photo-01.jpg"
+    },
+    {
+      "item": "butter",
+      "amount": 1,
+      "id": 3,
+      "photo": "Photo-04.jpeg"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
